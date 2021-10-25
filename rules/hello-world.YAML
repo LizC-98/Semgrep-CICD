@@ -3,6 +3,6 @@ rules:
   pattern: $X == $X
   message: $X == $X is a useless equality check
   languages: [python]
-  severity: ERROR
+  severity: WARNING
 
 
