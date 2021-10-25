@@ -1,6 +1,13 @@
+# rules:
+# - id: hello-world
+#   pattern: $X == $X
+#   message: $X == $X is a useless equality check
+#   languages: [python]
+#   severity: ERROR
+
 rules:
 - id: hello-world
-  pattern: $X == $X
-  message: $X == $X is a useless equality check
+  pattern: print(...
+  message: Print statement has no closing
   languages: [python]
   severity: ERROR
